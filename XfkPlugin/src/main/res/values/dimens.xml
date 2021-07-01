@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_wh">20dp</dimen>
+    <dimen name="image_wh_big">22dp</dimen>
+    <dimen name="image_wh_big_new">22dp</dimen>
+    <dimen name="color_block_wh">24dp</dimen>
+    <dimen name="color_block_wh_big">40dp</dimen>
+    <dimen name="botton_title_textsize">16sp</dimen>
+    <dimen name="small_botton_title_textsize">14sp</dimen>
+    <dimen name="bottom_item_h">55sp</dimen>
+</resources>

@@ -1,0 +1,65 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 28
+//    buildToolsVersion "30.0.2"
+
+    signingConfigs {
+        release {
+            storeFile file('D:\\code\\android\\TcdsAppMaster\\app\\tcds.jks')
+            storePassword '123456'
+            keyAlias 'tcds'
+            keyPassword '123456'
+        }
+    }
+
+    defaultConfig {
+        applicationId "com.jw.tcdsappmaster"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 1002
+        versionName "1.0.2"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    build{
+        doLast{
+            def fileName = "app-release.apk"
+            def fromFile = "./build/outputs/apk/" + fileName
+            def intoFile = "./build/outputs/apk/" + fileName
+            def versionName = android.defaultConfig.versionName
+            def appName = "TCDS_${versionName}.apk"
+            copy {
+                from fromFile
+                into intoFile
+                rename {
+                    appName
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:recyclerview-v7:28.0.0'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+    implementation project(":XfkPlugin")
+
+}

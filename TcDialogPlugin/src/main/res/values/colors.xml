@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="black_1">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBackground">#FFFFFFFF</color>
+    <color name="transparent">#90000000</color>
+    <color name="transparent2">#90FFFFFF</color>
+    <color name="all_transparent">#00000000</color>
+    <color name="gray">#999999</color>
+
+    <color name="timeBg">#eecc00</color>
+
+    //colorPicker
+    <color name="c_1">#ffffff</color>
+    <color name="c_2">#999999</color>
+    <color name="c_3">#000000</color>
+    <color name="c_4">#F44336</color>
+    <color name="c_5">#E91E63</color>
+    <color name="c_6">#9C27B0</color>
+    <color name="c_7">#673AB7</color>
+    <color name="c_8">#3F51B5</color>
+    <color name="c_9">#2196F3</color>
+    <color name="c_10">#03A9F4</color>
+    <color name="c_11">#009688</color>
+    <color name="c_12">#4CAF50</color>
+    <color name="c_13">#8BC34A</color>
+    <color name="c_14">#FFEB3B</color>
+    <color name="c_15">#FF9800</color>
+    <color name="c_16">#FF5722</color>
+    <color name="c_17">#FFCDD2</color>
+    <color name="c_18">#F8BBD0</color>
+    <color name="c_19">#F0F4C3</color>
+    <color name="c_20">#BBDEFB</color>
+    <color name="c_21">#C8E6C9</color>
+    <color name="c_22">#FFF9C4</color>
+    <color name="c_23">#64DD17</color>
+    <color name="c_24">#C51162</color>
+
+    <color name="t_1">#FEFFFE</color>
+    <color name="t_2">#000000</color>
+    <color name="t_3">#6D7A76</color>
+    <color name="t_4">#62D3A8</color>
+    <color name="t_5">#94D443</color>
+    <color name="t_6">#C75427</color>
+    <color name="t_7">#2653CF</color>
+    <color name="t_8">#C42DA7</color>
+    <color name="t_9">#891E5A</color>
+    <color name="t_10">#8C531D</color>
+    <color name="t_11">#E1A158</color>
+    <color name="t_12">#C4AF95</color>
+    <color name="t_13">#8FA9EF</color>
+    <color name="t_14">#E68DD2</color>
+    <color name="t_15">#E68DA1</color>
+    <color name="t_16">#63CFD7</color>
+    <color name="t_17">#2A5F64</color>
+    <color name="t_18">#9DA2B8</color>
+    <color name="t_19">#8FB73A</color>
+    <color name="t_20">#54B571</color>
+
+    <color name="baseline_color">#FFCC00</color>
+
+
+
+</resources>

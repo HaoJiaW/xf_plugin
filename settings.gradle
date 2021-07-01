@@ -1,0 +1,4 @@
+include ':TcDialogPlugin'
+include ':XfkPlugin'
+include ':app'
+rootProject.name = "TcdsAppMaster"

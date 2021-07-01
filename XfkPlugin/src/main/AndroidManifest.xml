@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jw.xfkplugin">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application>
+        <service
+            android:name=".SettingService"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <service
+            android:name=".BeyondService_2"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <service
+            android:name=".BeyondServiceLandSpace"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <service
+            android:name=".LogoService"
+            android:enabled="true"
+            android:exported="true"/>
+
+        <service
+            android:name=".SettingServiceLandSpace"
+            android:enabled="true"
+            android:exported="true"/>
+
+    </application>
+
+
+</manifest>
