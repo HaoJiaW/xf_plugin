@@ -19,6 +19,7 @@ import com.jw.tcdialogplugin.dialog.DialogManager;
 import com.jw.xfkplugin.BeyondService_2;
 import com.jw.xfkplugin.LogoService;
 import com.jw.xfkplugin.TcBean;
+import com.jw.xfkplugin.mode.AppBean;
 //import com.jw.xfkplugin.BeyondService_2;
 //import com.jw.xfkplugin.LogoService;
 //import com.jw.xfkplugin.PopupManager;
@@ -239,6 +240,9 @@ public class MainActivity extends AppCompatActivity {
     private void showFloatWindow() {
         com.jw.xfkplugin.VarManger.tcList = Arrays.asList(new com.jw.xfkplugin.TcBean("台本1",this.getResources().getString(R.string.top_content_long),false),
                 new TcBean("台本2",this.getResources().getString(R.string.top_content_long2),true));
+        com.jw.xfkplugin.VarManger.appBeanList = Arrays.asList(new AppBean("com.ss.android.ugc.aweme","抖音","https://android-artworks.25pp.com/fs08/2021/06/22/5/110_4f97f2f02156aea9c4765d438875ca54_con_130x130.png"),
+                new AppBean("com.smile.gifmaker","快手","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"),new AppBean("com.android.camera","相机","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png")
+        ,new AppBean("com.gorgeous.lite","轻颜相机","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"),new AppBean("com.mt.mtxx.mtxx","美图秀秀","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"));
         //APP是否在前台
         VarManger.isAppResume = false;
         if (VarManger.floatLogoViewShow) {

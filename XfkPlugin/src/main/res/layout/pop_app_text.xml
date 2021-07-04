@@ -9,11 +9,12 @@
     android:paddingRight="6dp">
 
     <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvIcon"
+        android:id="@+id/rv_app_icon"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
 
     <LinearLayout
+        android:visibility="gone"
         android:id="@+id/iconLayout"
         android:layout_width="match_parent"
         android:layout_height="50dp"

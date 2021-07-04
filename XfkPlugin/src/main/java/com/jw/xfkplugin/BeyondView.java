@@ -8,6 +8,8 @@ import android.content.res.ColorStateList;
 import android.graphics.Canvas;
 import android.graphics.drawable.GradientDrawable;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.text.method.ScrollingMovementMethod;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
@@ -20,6 +22,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.jw.xfkplugin.adapter.AppIconAdapter;
 
 import java.util.concurrent.TimeUnit;
 
@@ -85,6 +89,9 @@ public class BeyondView extends LinearLayout {
     public WindowManager wm;
     public boolean isRightBottom = false;
 
+    private RecyclerView rvAppIcon;
+    private AppIconAdapter appIconAdapter;
+
     public void initView() {
         displayMetrice = context.getResources().getDisplayMetrics();
         mView = LayoutInflater.from(context).inflate(R.layout.pop_app_text, this);
@@ -104,6 +111,13 @@ public class BeyondView extends LinearLayout {
         moveView = mView.findViewById(R.id.moveView);
         countTimeView = mView.findViewById(R.id.countTimeView);
         tvContent = mView.findViewById(R.id.tcContentText);
+
+        rvAppIcon = mView.findViewById(R.id.rv_app_icon);
+        appIconAdapter = new AppIconAdapter(context);
+        rvAppIcon.setLayoutManager(new LinearLayoutManager(context,RecyclerView.HORIZONTAL,false));
+        rvAppIcon.setAdapter(appIconAdapter);
+        appIconAdapter.setData(VarManger.appBeanList);
+
         tvContent.setMovementMethod(new ScrollingMovementMethod());
         tvContent.setTextSize(PreferencesUtils.getFloat("tcContentSize", 25f));
         tvContent.setTextColor(context.getResources().getColorStateList(PreferencesUtils.getInt("textColor", R.color.white)));
@@ -117,6 +131,7 @@ public class BeyondView extends LinearLayout {
 //        leftTranslation = mView.findViewById(R.id.leftTranslation);
         rightScale = mView.findViewById(R.id.rightScale);
         scrollControl = mView.findViewById(R.id.scrollControl);
+
         scrollControl.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View view) {

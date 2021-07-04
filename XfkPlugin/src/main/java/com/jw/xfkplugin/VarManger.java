@@ -12,6 +12,8 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+import com.jw.xfkplugin.mode.AppBean;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -70,6 +72,7 @@ public class VarManger {
     public static boolean showLandSpaceView = false;
     public static boolean settingServiceShow = false;
     public static List<TcBean> tcList;
+    public static List<AppBean> appBeanList;
     public static boolean isAppResume = false;
     public static boolean isStartOtherAct = false;
     public static boolean fristStartTc = true;
