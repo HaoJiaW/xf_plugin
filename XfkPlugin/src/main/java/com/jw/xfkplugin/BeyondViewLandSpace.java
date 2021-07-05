@@ -18,7 +18,9 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class BeyondViewLandSpace extends LinearLayout {
+import com.jw.xfkplugin.widget.BaseView;
+
+public class BeyondViewLandSpace extends BaseView {
 
     public BeyondViewLandSpace(Context context) {
         this(context, null);
@@ -30,18 +32,19 @@ public class BeyondViewLandSpace extends LinearLayout {
 
     public BeyondViewLandSpace(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        this.context = context;
         initView();
     }
 
+    @Override
+    public int getLayoutId() {
+        return R.layout.pop_app_text_landspace2;
+    }
+
     public AutoScrollTextView tvContent;
-    private Context context;
-    public ImageView bottomSetImageView;
     public OnBottomImageViewClick onBottomImageViewClick;
     public LinearLayout topDecorView;
     public LinearLayout iconLayout;
     public GradientDrawable topDecorShapeDrawable;
-    public View mView;
     //    var leftTranslation: ImageView
     public ImageView settingBtn;
     public ImageView contentSet;
@@ -59,9 +62,7 @@ public class BeyondViewLandSpace extends LinearLayout {
     public TextView countTimeView;
     public DisplayMetrics displayMetrice;
     public RelativeLayout.LayoutParams lp;
-    public WindowManager.LayoutParams lpW;
     public boolean startScroll = false;
-    public boolean iconShow = true;
     public boolean horizontalScreen = false;
     public boolean rotateEnable = false;
     public int tempWidth = 0;
@@ -75,13 +76,10 @@ public class BeyondViewLandSpace extends LinearLayout {
     public int dy = 0;
     public int oriWidth = 0;
     public int oriHeight = 0;
-    public boolean isWindowMangerFlag = false;
-    public WindowManager wm;
     public boolean isLeftBottom = false;
 
     public void initView() {
         displayMetrice = context.getResources().getDisplayMetrics();
-        mView = LayoutInflater.from(context).inflate(R.layout.pop_app_text_landspace2, this);
         topDecorView = mView.findViewById(R.id.topDecorView);
         iconLayout = mView.findViewById(R.id.iconLayout);
         cameraIcon = mView.findViewById(R.id.cameraIcon);
@@ -92,7 +90,6 @@ public class BeyondViewLandSpace extends LinearLayout {
         douyinIcon = mView.findViewById(R.id.douyinIcon);
         settingBtn = mView.findViewById(R.id.settingBtn);
         contentSet = mView.findViewById(R.id.contentSet);
-        bottomSetImageView = mView.findViewById(R.id.img_2);
         closeIcon = mView.findViewById(R.id.close_icon);
         oriChange = mView.findViewById(R.id.oriChange);
         moveView = mView.findViewById(R.id.moveView);
@@ -176,29 +173,6 @@ public class BeyondViewLandSpace extends LinearLayout {
                 }
                 if (!VarManger.isAppResume) {
                     context.startService(new Intent(context, LogoService.class));
-                }
-            }
-        });
-
-        bottomSetImageView.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (isWindowMangerFlag) {
-                    if (iconShow) {
-                        iconLayout.setVisibility(View.GONE);
-                        if (lpW != null) {
-                            lpW.width += -VarManger.dip2px(context, 50f);
-                            wm.updateViewLayout(BeyondViewLandSpace.this, lpW);
-                        }
-                        iconShow = false;
-                    } else {
-                        iconLayout.setVisibility(View.VISIBLE);
-                        if (lpW != null) {
-                            lpW.width += VarManger.dip2px(context, 50f);
-                            wm.updateViewLayout(BeyondViewLandSpace.this, lpW);
-                        }
-                        iconShow = true;
-                    }
                 }
             }
         });

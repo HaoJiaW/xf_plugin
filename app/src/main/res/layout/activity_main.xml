@@ -3,7 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
     <LinearLayout
         android:id="@+id/ll_top"
         android:layout_width="match_parent"
@@ -152,8 +151,6 @@
 
     </LinearLayout>
 
-
-
     <View
         android:id="@+id/centerView"
         android:layout_width="match_parent"
@@ -169,5 +166,13 @@
         android:layout_below="@+id/centerView"
         android:layout_marginTop="30dp"
         android:text="正常模式"/>
+
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>

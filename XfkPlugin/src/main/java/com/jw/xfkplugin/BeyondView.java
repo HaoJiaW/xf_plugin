@@ -24,11 +24,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jw.xfkplugin.adapter.AppIconAdapter;
+import com.jw.xfkplugin.widget.BaseView;
 
 import java.util.concurrent.TimeUnit;
 
 
-public class BeyondView extends LinearLayout {
+public class BeyondView extends BaseView {
 
     public BeyondView(Context context) {
         this(context, null);
@@ -40,18 +41,20 @@ public class BeyondView extends LinearLayout {
 
     public BeyondView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        this.context = context;
         initView();
     }
 
+    @Override
+    public int getLayoutId() {
+        return R.layout.pop_app_text;
+    }
+
     public AutoScrollTextView tvContent;
-    private Context context;
     public ImageView bottomSetImageView;
     public OnBottomImageViewClick onBottomImageViewClick;
     public LinearLayout topDecorView;
     public LinearLayout iconLayout;
     public GradientDrawable topDecorShapeDrawable;
-    public View mView;
     //    var leftTranslation: ImageView
     public ImageView settingBtn;
     public ImageView contentSet;
@@ -69,9 +72,7 @@ public class BeyondView extends LinearLayout {
     private TextView countTimeView;
     public DisplayMetrics displayMetrice;
     public RelativeLayout.LayoutParams lp;
-    public WindowManager.LayoutParams lpW;
     public boolean startScroll = false;
-    public boolean iconShow = true;
     public boolean horizontalScreen = false;
     public boolean rotateEnable = false;
     public int tempWidth = 0;
@@ -85,16 +86,10 @@ public class BeyondView extends LinearLayout {
     public int dy = 0;
     public int oriWidth = 0;
     public int oriHeight = 0;
-    public boolean isWindowMangerFlag = false;
-    public WindowManager wm;
     public boolean isRightBottom = false;
-
-    private RecyclerView rvAppIcon;
-    private AppIconAdapter appIconAdapter;
 
     public void initView() {
         displayMetrice = context.getResources().getDisplayMetrics();
-        mView = LayoutInflater.from(context).inflate(R.layout.pop_app_text, this);
         topDecorView = mView.findViewById(R.id.topDecorView);
         iconLayout = mView.findViewById(R.id.iconLayout);
         cameraIcon = mView.findViewById(R.id.cameraIcon);
@@ -111,13 +106,6 @@ public class BeyondView extends LinearLayout {
         moveView = mView.findViewById(R.id.moveView);
         countTimeView = mView.findViewById(R.id.countTimeView);
         tvContent = mView.findViewById(R.id.tcContentText);
-
-        rvAppIcon = mView.findViewById(R.id.rv_app_icon);
-        appIconAdapter = new AppIconAdapter(context);
-        rvAppIcon.setLayoutManager(new LinearLayoutManager(context,RecyclerView.HORIZONTAL,false));
-        rvAppIcon.setAdapter(appIconAdapter);
-        appIconAdapter.setData(VarManger.appBeanList);
-
         tvContent.setMovementMethod(new ScrollingMovementMethod());
         tvContent.setTextSize(PreferencesUtils.getFloat("tcContentSize", 25f));
         tvContent.setTextColor(context.getResources().getColorStateList(PreferencesUtils.getInt("textColor", R.color.white)));
@@ -199,28 +187,7 @@ public class BeyondView extends LinearLayout {
                 }
             }
         });
-        bottomSetImageView.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                if (isWindowMangerFlag) {
-                    if (iconShow) {
-                        iconLayout.setVisibility(View.GONE);
-                        if (lpW != null) {
-                            lpW.height += -VarManger.dip2px(context, 50f);
-                            wm.updateViewLayout(BeyondView.this, lpW);
-                        }
-                        iconShow = false;
-                    } else {
-                        iconLayout.setVisibility(View.VISIBLE);
-                        if (lpW != null) {
-                            lpW.height += VarManger.dip2px(context, 50f);
-                            wm.updateViewLayout(BeyondView.this, lpW);
-                        }
-                        iconShow = true;
-                    }
-                }
-            }
-        });
+
 
         settingBtn.setOnClickListener(new OnClickListener() {
             @Override

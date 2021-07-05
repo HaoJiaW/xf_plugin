@@ -62,8 +62,8 @@ public class BeyondServiceLandSpace extends Service {
         lp.format = PixelFormat.RGBA_8888;
         lp.gravity = Gravity.TOP;
 //        lp.screenOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-        PopupManager.getInstance().beyondViewLandSpace.isWindowMangerFlag = true;
-        PopupManager.getInstance().beyondViewLandSpace.wm = windowManager;
+        PopupManager.getInstance().beyondViewLandSpace.setWindowMangerFlag(true);
+        PopupManager.getInstance().beyondViewLandSpace.setWm(windowManager);
         windowManager.addView(PopupManager.getInstance().beyondViewLandSpace, lp);
         VarManger.isXfkShow = true;
         VarManger.isXfkLandSpaceShow = true;

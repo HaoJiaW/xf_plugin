@@ -59,8 +59,9 @@ public class BeyondService_2 extends Service {
         lp.format = PixelFormat.RGBA_8888;
         lp.gravity = Gravity.TOP;
 //        lp.screenOrientation = ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE
-        PopupManager.getInstance().beyondView.isWindowMangerFlag = true;
-        PopupManager.getInstance().beyondView.wm = windowManager;
+
+        PopupManager.getInstance().beyondView.setWindowMangerFlag(true);
+        PopupManager.getInstance().beyondView.setWm(windowManager);
         windowManager.addView(PopupManager.getInstance().beyondView, lp);
         VarManger.isXfkShow = true;
     }

@@ -11,9 +11,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 
+import com.bumptech.glide.Glide;
 import com.jw.tcdialogplugin.VarManger;
 import com.jw.tcdialogplugin.dialog.DialogManager;
 import com.jw.xfkplugin.BeyondService_2;
@@ -31,10 +33,15 @@ public class MainActivity extends AppCompatActivity {
 
     private int dialogType=0;
 
+    private ImageView ivTest;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ivTest = findViewById(R.id.iv_test);
+//        Glide.with(this).load("https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png").into(ivTest);
 
         Button floatWindowBtn = findViewById(R.id.floatWindowBtn);
         floatWindowBtn.setOnClickListener(new View.OnClickListener() {

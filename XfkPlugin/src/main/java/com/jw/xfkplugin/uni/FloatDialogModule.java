@@ -59,7 +59,7 @@ import java.util.List;
 //
 //import static com.example.athree_MeisheSdk.utils.PathUtils.getCharacterAndNumber;
 //
-public class MeisheSdkXFWXModule extends WXSDKEngine.DestroyableModule {
+public class FloatDialogModule extends WXSDKEngine.DestroyableModule {
 
     public static AppCompatActivity Mainactivity;
     public static Context mContext;
