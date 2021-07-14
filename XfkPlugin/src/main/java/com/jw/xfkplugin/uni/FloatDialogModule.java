@@ -1,5 +1,6 @@
 package com.jw.xfkplugin.uni;//package com.jw.xfkplugin.uni;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -61,7 +62,7 @@ import java.util.List;
 //
 public class FloatDialogModule extends WXSDKEngine.DestroyableModule {
 
-    public static AppCompatActivity Mainactivity;
+    public static Activity Mainactivity;
     public static Context mContext;
 
     public com.alibaba.fastjson.JSONArray textArray;
@@ -71,7 +72,7 @@ public class FloatDialogModule extends WXSDKEngine.DestroyableModule {
     public void openXF(JSONArray options, JSCallback callback) {
         textArray = options;
         mContext = mWXSDKInstance.getContext();
-        Mainactivity = (AppCompatActivity) mWXSDKInstance.getContext();
+        Mainactivity = (Activity) mWXSDKInstance.getContext();
 
         if (Build.VERSION.SDK_INT >= 23) {
             if (!Settings.canDrawOverlays(Mainactivity)) {
