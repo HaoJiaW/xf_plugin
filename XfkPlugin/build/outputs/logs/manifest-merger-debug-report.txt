@@ -1,0 +1,95 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:5:5-65
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:5:22-62
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:6:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:7:5-78
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:7:22-75
+uses-permission#android.permission.INTERNET
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:8:22-64
+application
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:10:5-36:19
+service#com.jw.xfkplugin.SettingService
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:11:9-14:38
+	android:enabled
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:13:13-35
+	android:exported
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:12:13-43
+service#com.jw.xfkplugin.BeyondService_2
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:16:9-19:38
+	android:enabled
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:18:13-35
+	android:exported
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:17:13-44
+service#com.jw.xfkplugin.BeyondServiceLandSpace
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:21:9-24:38
+	android:enabled
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:23:13-35
+	android:exported
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:22:13-51
+service#com.jw.xfkplugin.LogoService
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:26:9-29:38
+	android:enabled
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:28:13-35
+	android:exported
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:27:13-40
+service#com.jw.xfkplugin.SettingServiceLandSpace
+ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:31:9-34:38
+	android:enabled
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:33:13-35
+	android:exported
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:34:13-36
+	android:name
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml:32:13-52
+uses-sdk
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml
+		INJECTED from D:\code\XF\xf_plugin\XfkPlugin\src\main\AndroidManifest.xml

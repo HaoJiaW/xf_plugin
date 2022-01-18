@@ -15,12 +15,10 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 
-import com.bumptech.glide.Glide;
-import com.jw.tcdialogplugin.VarManger;
-import com.jw.tcdialogplugin.dialog.DialogManager;
 import com.jw.xfkplugin.BeyondService_2;
 import com.jw.xfkplugin.LogoService;
 import com.jw.xfkplugin.TcBean;
+import com.jw.xfkplugin.VarManger;
 import com.jw.xfkplugin.mode.AppBean;
 //import com.jw.xfkplugin.BeyondService_2;
 //import com.jw.xfkplugin.LogoService;
@@ -63,171 +61,171 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button dialogBtn = findViewById(R.id.dialogBtn);
-        dialogBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                VarManger.tcList = Arrays.asList(new TcBean("台本1",getResources().getString(R.string.top_content_long),false),
-//                        new TcBean("台本2",getResources().getString(R.string.top_content_long2),true));
+//        Button dialogBtn = findViewById(R.id.dialogBtn);
+//        dialogBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                VarManger.tcList = Arrays.asList(new TcBean("台本1",getResources().getString(R.string.top_content_long),false),
+////                        new TcBean("台本2",getResources().getString(R.string.top_content_long2),true));
+////
+////                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+////                PopupWindow pw = new PopupWindow(new TcView(MainActivity.this),(int) (displayMetrics.widthPixels * 0.8),(int) (displayMetrics.heightPixels * 0.4));
+////                pw.setFocusable(true);
+////                pw.setOutsideTouchable(true);
+////                pw.showAsDropDown(dialogBtn);
+//                DialogManager.getInstance().showPopupWindow(MainActivity.this,dialogType);
+//            }
+//        });
 //
-//                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
-//                PopupWindow pw = new PopupWindow(new TcView(MainActivity.this),(int) (displayMetrics.widthPixels * 0.8),(int) (displayMetrics.heightPixels * 0.4));
-//                pw.setFocusable(true);
-//                pw.setOutsideTouchable(true);
-//                pw.showAsDropDown(dialogBtn);
-                DialogManager.getInstance().showPopupWindow(MainActivity.this,dialogType);
-            }
-        });
-
-
-        Button close = findViewById(R.id.close);
-        close.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                VarManger.tcList = Arrays.asList(new TcBean("台本1",getResources().getString(R.string.top_content_long),false),
-//                        new TcBean("台本2",getResources().getString(R.string.top_content_long2),true));
 //
-//                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
-//                PopupWindow pw = new PopupWindow(new TcView(MainActivity.this),(int) (displayMetrics.widthPixels * 0.8),(int) (displayMetrics.heightPixels * 0.4));
-//                pw.setFocusable(true);
-//                pw.setOutsideTouchable(true);
-//                pw.showAsDropDown(dialogBtn);
-                DialogManager.getInstance().closeTcDialog();
-                dialogType= dialogType==0?1:0;
-            }
-        });
-
-
-
-        Button startScroll = findViewById(R.id.startScroll);
-        startScroll.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                startScroll();
-//                DialogManager.getInstance().startScroll(MainActivity.this);
-//            DialogManager.getInstance().setLandSpace(true);
-                DialogManager.getInstance().setTvContent(getResources().getString(R.string.top_content_long));
-            }
-        });
-        Button stopScroll = findViewById(R.id.stopScroll);
-        stopScroll.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                stopScroll();
-//                DialogManager.getInstance().stopScroll(MainActivity.this);
-                DialogManager.getInstance().setLandSpace(true,true);
-            }
-        });
-
-        Button preTc = findViewById(R.id.preTc);
-        preTc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                setPreTc();
-//            DialogManager.getInstance().preScreen(MainActivity.this);
-                DialogManager.getInstance().setBaselineColor("#fff090");
-            }
-        });
-        Button nextTc = findViewById(R.id.nextTc);
-        nextTc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                setNextTc();
+//        Button close = findViewById(R.id.close);
+//        close.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                VarManger.tcList = Arrays.asList(new TcBean("台本1",getResources().getString(R.string.top_content_long),false),
+////                        new TcBean("台本2",getResources().getString(R.string.top_content_long2),true));
+////
+////                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+////                PopupWindow pw = new PopupWindow(new TcView(MainActivity.this),(int) (displayMetrics.widthPixels * 0.8),(int) (displayMetrics.heightPixels * 0.4));
+////                pw.setFocusable(true);
+////                pw.setOutsideTouchable(true);
+////                pw.showAsDropDown(dialogBtn);
+//                DialogManager.getInstance().closeTcDialog();
+//                dialogType= dialogType==0?1:0;
+//            }
+//        });
+//
+//
+//
+//        Button startScroll = findViewById(R.id.startScroll);
+//        startScroll.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                startScroll();
+////                DialogManager.getInstance().startScroll(MainActivity.this);
+////            DialogManager.getInstance().setLandSpace(true);
+//                DialogManager.getInstance().setTvContent(getResources().getString(R.string.top_content_long));
+//            }
+//        });
+//        Button stopScroll = findViewById(R.id.stopScroll);
+//        stopScroll.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                stopScroll();
+////                DialogManager.getInstance().stopScroll(MainActivity.this);
+//                DialogManager.getInstance().setLandSpace(true,true);
+//            }
+//        });
+//
+//        Button preTc = findViewById(R.id.preTc);
+//        preTc.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                setPreTc();
+////            DialogManager.getInstance().preScreen(MainActivity.this);
+//                DialogManager.getInstance().setBaselineColor("#fff090");
+//            }
+//        });
+//        Button nextTc = findViewById(R.id.nextTc);
+//        nextTc.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                setNextTc();
+////                DialogManager.getInstance().nextScreen(MainActivity.this);
+//                DialogManager.getInstance().setBaselineVisible(false);
+//            }
+//        });
+//
+//        Button preScreenTc = findViewById(R.id.preScreenTc);
+//        preScreenTc.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                preScreen();
+//                DialogManager.getInstance().preScreen(MainActivity.this);
+//            }
+//        });
+//        Button nextScreenTc = findViewById(R.id.nextScreenTc);
+//        nextScreenTc.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                nextScreen();
 //                DialogManager.getInstance().nextScreen(MainActivity.this);
-                DialogManager.getInstance().setBaselineVisible(false);
-            }
-        });
-
-        Button preScreenTc = findViewById(R.id.preScreenTc);
-        preScreenTc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                preScreen();
-                DialogManager.getInstance().preScreen(MainActivity.this);
-            }
-        });
-        Button nextScreenTc = findViewById(R.id.nextScreenTc);
-        nextScreenTc.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                nextScreen();
-                DialogManager.getInstance().nextScreen(MainActivity.this);
-            }
-        });
-        Button changeTvContent = findViewById(R.id.change_content);
-        changeTvContent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                nextScreen();
-                DialogManager.getInstance().setTvContent(
-                        "当设置popupWindow的setFocusable( false )，那么设置setOutsideTouchable ( true ) 时，点击区域外会dismiss，setOutsideTouchable 终于起作用了。也就是mOutsideTouchable只有在mFocusable为false的时候才有作用。\n" +
-                                "\n" +
-                                "当设置popupWindow的setFocusable( false )，设置setOutsideTouchable ( false ) 时会有什么效果呢？答案是popupWindow是不会dismiss的，但是区域外的点击事件已经传递到popupwindow下面的activity了，点击activity下面的控件会有作用的。这就坑爹了，点击区域外不消失的效果是做到了，可是点击区域外，也就是popupWindow下面的activity的控件例如button时会响应onClickListener的。那该怎么使activity不分发popupWindow区域外的点击事件呢？"
-                );
-            }
-        });
-
-        Button changeTvSize = findViewById(R.id.change_size);
-        changeTvSize.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                nextScreen();
-                DialogManager.getInstance().setTvSize(50);
-            }
-        });
-
-        Button changeTvSpeed = findViewById(R.id.change_speed);
-        changeTvSpeed.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                nextScreen();
-                DialogManager.getInstance().setScrollSpeed(50);
-            }
-        });
-
-        Button changeColor = findViewById(R.id.change_color);
-        changeColor.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                nextScreen();
-                DialogManager.getInstance().setTvColor("#8FA9EF");
-            }
-        });
-
-        Button changeAlpha = findViewById(R.id.change_alpha);
-        changeAlpha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-//                nextScreen();
-                DialogManager.getInstance().setViewAlpha(0);
-            }
-        });
-
-
-        Button changeWh = findViewById(R.id.change_wh);
-        changeWh.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
-                DialogManager.getInstance().setWidhtOrHeight((int) (displayMetrics.widthPixels * 0.3),(int) (displayMetrics.heightPixels * 0.3));
-            }
-        });
-
-        Button mirror = findViewById(R.id.mirror);
-        mirror.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DialogManager.getInstance().setTextViewMirror(-1);
-            }
-        });
-
-        Button mirror2 = findViewById(R.id.mirror2);
-        mirror2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DialogManager.getInstance().setTextViewMirror(1);
-            }
-        });
+//            }
+//        });
+//        Button changeTvContent = findViewById(R.id.change_content);
+//        changeTvContent.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                nextScreen();
+//                DialogManager.getInstance().setTvContent(
+//                        "当设置popupWindow的setFocusable( false )，那么设置setOutsideTouchable ( true ) 时，点击区域外会dismiss，setOutsideTouchable 终于起作用了。也就是mOutsideTouchable只有在mFocusable为false的时候才有作用。\n" +
+//                                "\n" +
+//                                "当设置popupWindow的setFocusable( false )，设置setOutsideTouchable ( false ) 时会有什么效果呢？答案是popupWindow是不会dismiss的，但是区域外的点击事件已经传递到popupwindow下面的activity了，点击activity下面的控件会有作用的。这就坑爹了，点击区域外不消失的效果是做到了，可是点击区域外，也就是popupWindow下面的activity的控件例如button时会响应onClickListener的。那该怎么使activity不分发popupWindow区域外的点击事件呢？"
+//                );
+//            }
+//        });
+//
+//        Button changeTvSize = findViewById(R.id.change_size);
+//        changeTvSize.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                nextScreen();
+//                DialogManager.getInstance().setTvSize(50);
+//            }
+//        });
+//
+//        Button changeTvSpeed = findViewById(R.id.change_speed);
+//        changeTvSpeed.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                nextScreen();
+//                DialogManager.getInstance().setScrollSpeed(50);
+//            }
+//        });
+//
+//        Button changeColor = findViewById(R.id.change_color);
+//        changeColor.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                nextScreen();
+//                DialogManager.getInstance().setTvColor("#8FA9EF");
+//            }
+//        });
+//
+//        Button changeAlpha = findViewById(R.id.change_alpha);
+//        changeAlpha.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                nextScreen();
+//                DialogManager.getInstance().setViewAlpha(0);
+//            }
+//        });
+//
+//
+//        Button changeWh = findViewById(R.id.change_wh);
+//        changeWh.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                DisplayMetrics displayMetrics = getResources().getDisplayMetrics();
+//                DialogManager.getInstance().setWidhtOrHeight((int) (displayMetrics.widthPixels * 0.3),(int) (displayMetrics.heightPixels * 0.3));
+//            }
+//        });
+//
+//        Button mirror = findViewById(R.id.mirror);
+//        mirror.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                DialogManager.getInstance().setTextViewMirror(-1);
+//            }
+//        });
+//
+//        Button mirror2 = findViewById(R.id.mirror2);
+//        mirror2.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                DialogManager.getInstance().setTextViewMirror(1);
+//            }
+//        });
 
 //        Button change = findViewById(R.id.change_speed);
 //        changeTvSpeed.setOnClickListener(new View.OnClickListener() {
@@ -247,9 +245,9 @@ public class MainActivity extends AppCompatActivity {
     private void showFloatWindow() {
         com.jw.xfkplugin.VarManger.tcList = Arrays.asList(new com.jw.xfkplugin.TcBean("台本1",this.getResources().getString(R.string.top_content_long),false),
                 new TcBean("台本2",this.getResources().getString(R.string.top_content_long2),true));
-        com.jw.xfkplugin.VarManger.appBeanList = Arrays.asList(new AppBean("com.ss.android.ugc.aweme","抖音","https://android-artworks.25pp.com/fs08/2021/06/22/5/110_4f97f2f02156aea9c4765d438875ca54_con_130x130.png"),
-                new AppBean("com.smile.gifmaker","快手","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"),new AppBean("com.android.camera","相机","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png")
-        ,new AppBean("com.gorgeous.lite","轻颜相机","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"),new AppBean("com.mt.mtxx.mtxx","美图秀秀","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"));
+//        com.jw.xfkplugin.VarManger.appBeanList = Arrays.asList(new AppBean("com.ss.android.ugc.aweme","抖音","https://android-artworks.25pp.com/fs08/2021/06/22/5/110_4f97f2f02156aea9c4765d438875ca54_con_130x130.png"),
+//                new AppBean("com.smile.gifmaker","快手","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"),new AppBean("com.android.camera","相机","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png")
+//        ,new AppBean("com.gorgeous.lite","轻颜相机","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"),new AppBean("com.mt.mtxx.mtxx","美图秀秀","https://android-artworks.25pp.com/fs08/2021/07/02/0/110_a1367bfffa940c82f5c035661c96102e_con_130x130.png"));
         //APP是否在前台
         VarManger.isAppResume = false;
         if (VarManger.floatLogoViewShow) {

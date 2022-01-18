@@ -1,3 +1,4 @@
+include ':athree_MeisheSdk'
 include ':TcDialogPlugin'
 include ':XfkPlugin'
 include ':app'

@@ -1,27 +1,13 @@
-/.idea
-
-# Built application files
-*.apk
-*.aar
-*.ap_
-*.aab
-
-# Gradle files
-.gradle/
-build/
-
-# Log Files
-*.log
-
-# IntelliJ
+/gen/
+/bin/
+/build/
+/.idea/
+/.gradle/
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/jarRepositories.xml
-# Android Studio 3 in .gitignore file.
-.idea/caches
-.idea/modules.xml
+local.properties
+.classpath
+custom_rules.xml
+local.properties
+project.properties
+.DS_Store
+*/.DS_Store

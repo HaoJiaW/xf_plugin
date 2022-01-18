@@ -17,6 +17,7 @@ import com.jw.xfkplugin.mode.AppBean;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.List;
 
 public class VarManger {
@@ -72,7 +73,18 @@ public class VarManger {
     public static boolean showLandSpaceView = false;
     public static boolean settingServiceShow = false;
     public static List<TcBean> tcList;
-    public static List<AppBean> appBeanList;
+    public static List<AppBean> appBeanList = Arrays.asList(
+            new AppBean("com.gorgeous.lite","轻颜","https://ticiimage.hdn.cn/icon/appicon/icon-qy.png"),
+            new AppBean("com.lemon.lv","剪映","https://ticiimage.hdn.cn/icon/appicon/icon-jianyin.png"),
+            new AppBean("com.ss.android.ugc.aweme","抖音","https://ticiimage.hdn.cn/icon/appicon/icon-douyin.png"),
+            new AppBean("com.smile.gifmaker","快手","https://ticiimage.hdn.cn/icon/appicon/icon-kuaishou.png"),
+            new AppBean("com.tencent.mm","视频号","https://ticiimage.hdn.cn/icon/share-dsp.png"),
+            new AppBean("com.xingin.xhs","小红书","https://ticiimage.hdn.cn/icon/appicon/icon-xiaohongshu.png"),
+            new AppBean("com.mt.mtxx.mtx","美图秀秀","https://ticiimage.hdn.cn/icon/appicon/icon-meitu.png"),
+            new AppBean("com.meitu.meiyancamera","美颜相机","https://ticiimage.hdn.cn/icon/appicon/icon-meiyan.png"),
+            new AppBean("com.benqu.wuta","无它相机","https://ticiimage.hdn.cn/icon/appicon/icon-wuta.png"),
+            new AppBean("com.lemon.faceu","激萌","https://ticiimage.hdn.cn/apple_icon/icon-app-faceu.png")
+    );;
     public static boolean isAppResume = false;
     public static boolean isStartOtherAct = false;
     public static boolean fristStartTc = true;

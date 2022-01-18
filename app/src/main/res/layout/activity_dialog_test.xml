@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="开始滚动" />
+
+        <Button
+            android:id="@+id/stopScroll"
+            android:layout_toRightOf="@+id/startScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="停止滚动" />
+
+        <Button
+            android:id="@+id/preTc"
+            android:layout_below="@+id/startScroll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一个台本" />
+
+        <Button
+            android:id="@+id/nextTc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startScroll"
+            android:layout_toRightOf="@id/preTc"
+            android:text="下一个台本" />
+
+        <Button
+            android:id="@+id/preScreenTc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startScroll"
+            android:layout_toRightOf="@id/nextTc"
+            android:text="上一个屏" />
+
+        <Button
+            android:id="@+id/nextScreenTc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/startScroll"
+            android:layout_toRightOf="@id/preScreenTc"
+            android:text="下一个屏" />
+
+        <Button
+            android:id="@+id/dialogBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/preTc"
+            android:text="@string/Show_dialog_window" />
+
+        <Button
+            android:id="@+id/close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/preTc"
+            android:layout_toRightOf="@+id/dialogBtn"
+            android:text="关闭" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/floatWindowBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:text="悬浮框模式"
+        android:visibility="gone"
+        android:layout_above="@+id/centerView"
+        android:layout_marginBottom="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/ll_top"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/change_content"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变内容"
+            />
+
+        <Button
+            android:id="@+id/change_size"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变大小"
+            />
+
+        <Button
+            android:id="@+id/change_speed"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变速度"
+            />
+
+        <Button
+            android:id="@+id/change_color"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变颜色"
+            />
+
+        <Button
+            android:id="@+id/change_alpha"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变透明度"
+            />
+
+
+        <Button
+            android:id="@+id/change_wh"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="改变宽高"
+            />
+
+        <Button
+            android:id="@+id/mirror"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="文字镜像"
+            />
+
+        <Button
+            android:id="@+id/mirror2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:text="文字镜像（恢复）"
+            />
+
+    </LinearLayout>
+
+
+
+    <View
+        android:id="@+id/centerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/normalWindowBtn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/centerView"
+        android:layout_marginTop="30dp"
+        android:text="正常模式"/>
+
+</RelativeLayout>

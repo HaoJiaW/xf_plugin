@@ -1,0 +1,262 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:2:1-39:12
+MERGED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:20:1-37:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\b45d59edaa6c2d4242e3bda309555a44\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\1d3c83fd99b5dc8c7a02d76dccda6aeb\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\55960161e6a037891448c17c1842b054\AndroidManifest.xml:17:1-22:12
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\cb0e2ba5bbc8c9b9767636deabcb9f10\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\179e7d896a4f3b3e8a1862a5041a2a47\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\99f554b00c88de83e5cc45dd6e5b50a3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\aaca4cb99c3f9f736026e99d415bc520\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\62fe56dc7bacb5ab54f53d63cd3c08ea\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\70e50a194e58ce03a8ebee67e0bc2749\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3fbb7474ca477ec4501b9fc3c2ef93c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\65143ded6189e0e457bbe819957627f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\f71bad5f073b3533349746f7ddcb0501\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ea0fe6764f9384e92f59aa16c4c0e69a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\9a039c2f894dde9f505247cba9e73ad2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\4bb32d079d1f496eec0247db6ebdf476\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\92e4f3e25517209601ec5aa4855fa85a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\a061a78b040f98d4e8a3a4ecc1ab64c4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\024fc191606ffc5b383627ee45ce0e25\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\820f1fdce82a14971d0a336abd38ccde\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\85ecb81ef14745d5271bb3661d9c3726\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ec0ff716079def2a1984895a8221c78d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ccd84d1481669c0dd54e5072382df34c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\576bbdebd0148e170fdda8183917c267\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\e6a1bb11e79024d0d839ce7f9a01c296\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\55a4bf02c872a4e06ff197d6aa3d05bf\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\59fdea91fef79f537f3a982e65cf1e97\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\a0f2e5573cca3bc9f7a1b53d327ecfa3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3ec27d56c41f63d3a4f7bca6658eedb0\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\2d596ae03f2fb0a2bcbe480a2a9b6c57\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\dec90f2fe16bbb2fd29fc8904abe8529\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\025e2ad9a099ae858c7e5cccd402648f\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+	package
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:4:5-35
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:1-38:12
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.CAMERA
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:6:5-65
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:6:22-62
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:7:5-77
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-77
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:12:5-77
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:7:22-74
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:8:5-78
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-78
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:13:5-78
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:8:22-75
+uses-permission#android.permission.INTERNET
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:9:5-67
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-67
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:9:22-64
+application
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:11:5-36:19
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-37:19
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:16:5-37:19
+MERGED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:29:5-35:19
+MERGED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:29:5-35:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\1d3c83fd99b5dc8c7a02d76dccda6aeb\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\1d3c83fd99b5dc8c7a02d76dccda6aeb\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\179e7d896a4f3b3e8a1862a5041a2a47\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\179e7d896a4f3b3e8a1862a5041a2a47\AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\820f1fdce82a14971d0a336abd38ccde\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\820f1fdce82a14971d0a336abd38ccde\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\85ecb81ef14745d5271bb3661d9c3726\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\85ecb81ef14745d5271bb3661d9c3726\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3ec27d56c41f63d3a4f7bca6658eedb0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3ec27d56c41f63d3a4f7bca6658eedb0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\820f1fdce82a14971d0a336abd38ccde\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:14:9-41
+	android:icon
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:13:9-42
+	android:allowBackup
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:16:9-40
+	tools:replace
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:17:9-38
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:18:9-38
+activity#com.jw.tcdsappmaster.MainActivity
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:19:9-26:20
+	android:launchMode
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:20:13-44
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:19:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.jw.xfkplugin.TestRotationActivity
+ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:28:9-35:20
+	android:name
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml:28:19-71
+uses-sdk
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:7:5-9:41
+MERGED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:25:5-27:41
+MERGED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\b45d59edaa6c2d4242e3bda309555a44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\b45d59edaa6c2d4242e3bda309555a44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\1d3c83fd99b5dc8c7a02d76dccda6aeb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.4] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\1d3c83fd99b5dc8c7a02d76dccda6aeb\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\55960161e6a037891448c17c1842b054\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\55960161e6a037891448c17c1842b054\AndroidManifest.xml:20:5-44
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\cb0e2ba5bbc8c9b9767636deabcb9f10\AndroidManifest.xml:8:5-10:41
+MERGED from [com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\cb0e2ba5bbc8c9b9767636deabcb9f10\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\179e7d896a4f3b3e8a1862a5041a2a47\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\179e7d896a4f3b3e8a1862a5041a2a47\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\99f554b00c88de83e5cc45dd6e5b50a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\99f554b00c88de83e5cc45dd6e5b50a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\aaca4cb99c3f9f736026e99d415bc520\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\aaca4cb99c3f9f736026e99d415bc520\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\62fe56dc7bacb5ab54f53d63cd3c08ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\62fe56dc7bacb5ab54f53d63cd3c08ea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\70e50a194e58ce03a8ebee67e0bc2749\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\70e50a194e58ce03a8ebee67e0bc2749\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3fbb7474ca477ec4501b9fc3c2ef93c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3fbb7474ca477ec4501b9fc3c2ef93c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\65143ded6189e0e457bbe819957627f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\65143ded6189e0e457bbe819957627f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\f71bad5f073b3533349746f7ddcb0501\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\f71bad5f073b3533349746f7ddcb0501\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ea0fe6764f9384e92f59aa16c4c0e69a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ea0fe6764f9384e92f59aa16c4c0e69a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\9a039c2f894dde9f505247cba9e73ad2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\9a039c2f894dde9f505247cba9e73ad2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\4bb32d079d1f496eec0247db6ebdf476\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\4bb32d079d1f496eec0247db6ebdf476\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\92e4f3e25517209601ec5aa4855fa85a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\92e4f3e25517209601ec5aa4855fa85a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\a061a78b040f98d4e8a3a4ecc1ab64c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\a061a78b040f98d4e8a3a4ecc1ab64c4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\024fc191606ffc5b383627ee45ce0e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\024fc191606ffc5b383627ee45ce0e25\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\820f1fdce82a14971d0a336abd38ccde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\820f1fdce82a14971d0a336abd38ccde\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\85ecb81ef14745d5271bb3661d9c3726\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\85ecb81ef14745d5271bb3661d9c3726\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ec0ff716079def2a1984895a8221c78d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ec0ff716079def2a1984895a8221c78d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ccd84d1481669c0dd54e5072382df34c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\ccd84d1481669c0dd54e5072382df34c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\576bbdebd0148e170fdda8183917c267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\576bbdebd0148e170fdda8183917c267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\e6a1bb11e79024d0d839ce7f9a01c296\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\e6a1bb11e79024d0d839ce7f9a01c296\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\55a4bf02c872a4e06ff197d6aa3d05bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\55a4bf02c872a4e06ff197d6aa3d05bf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\59fdea91fef79f537f3a982e65cf1e97\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\59fdea91fef79f537f3a982e65cf1e97\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\a0f2e5573cca3bc9f7a1b53d327ecfa3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\a0f2e5573cca3bc9f7a1b53d327ecfa3\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3ec27d56c41f63d3a4f7bca6658eedb0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\3ec27d56c41f63d3a4f7bca6658eedb0\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\2d596ae03f2fb0a2bcbe480a2a9b6c57\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\2d596ae03f2fb0a2bcbe480a2a9b6c57\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\dec90f2fe16bbb2fd29fc8904abe8529\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\dec90f2fe16bbb2fd29fc8904abe8529\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\025e2ad9a099ae858c7e5cccd402648f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\025e2ad9a099ae858c7e5cccd402648f\AndroidManifest.xml:20:5-44
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		ADDED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+		INJECTED from D:\code\XF\xf_plugin\app\src\main\AndroidManifest.xml
+service#com.jw.xfkplugin.SettingService
+ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:17:9-20:39
+	android:enabled
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:19:13-35
+	android:exported
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:13-36
+	android:name
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:18:13-59
+service#com.jw.xfkplugin.BeyondService_2
+ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:21:9-24:39
+	android:enabled
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:23:13-35
+	android:exported
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:24:13-36
+	android:name
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:22:13-60
+service#com.jw.xfkplugin.BeyondServiceLandSpace
+ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:9-28:39
+	android:enabled
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:26:13-67
+service#com.jw.xfkplugin.LogoService
+ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:29:9-32:39
+	android:enabled
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:32:13-36
+	android:name
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:30:13-56
+service#com.jw.xfkplugin.SettingServiceLandSpace
+ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:33:9-36:39
+	android:enabled
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from [:XfkPlugin] D:\code\XF\xf_plugin\XfkPlugin\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:34:13-68
+receiver#com.taobao.weex.WXGlobalEventReceiver
+ADDED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:30:9-34:20
+	android:enabled
+		ADDED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:32:13-35
+	android:exported
+		ADDED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from [uniapp-release.aar] C:\Users\wei\.gradle\caches\transforms-2\files-2.1\57d9b6baac59244c604926c5d54b2b4a\AndroidManifest.xml:31:13-65

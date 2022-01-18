@@ -1,0 +1,4 @@
+#Sun Jul 18 21:51:20 CST 2021
+base.0=D\:\\code\\XF\\xf_plugin\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

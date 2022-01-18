@@ -35,11 +35,7 @@ import java.util.List;
 
 import static com.example.athree_MeisheSdk.utils.PathUtils.getCharacterAndNumber;
 
-
 public class MeisheSdkXFWXModule extends WXSDKEngine.DestroyableModule   {
-
-
-
 
     public  static Activity Mainactivity;
 
@@ -55,44 +51,11 @@ public class MeisheSdkXFWXModule extends WXSDKEngine.DestroyableModule   {
     public JSONArray array;
     public JSONArray textArray,appIconArray;
 
-    //{"text_list":[],"app_icon_list":[{"pkgName":"包的地址","appName":"抖音","iamgeUrl":"图片地址"},
-    // {"pkgName":"包的地址","appName":"抖音","iamgeUrl":"图片地址"}]}
-    @JSMethod(uiThread = true)
-    public void showFloatWindow(JSONObject jsonObject, JSCallback callback) {
-        textArray = jsonObject.getJSONArray("text_list");
-        appIconArray = jsonObject.getJSONArray("app_icon_list");
-
-        VarManger.appBeanList = appIconArray.toJavaList(AppBean.class);
-        mContext = mWXSDKInstance.getContext();
-        Mainactivity = (AppCompatActivity) mWXSDKInstance.getContext();
-        if (Build.VERSION.SDK_INT >= 23) {
-            if (!Settings.canDrawOverlays(Mainactivity)) {
-                Mainactivity.startActivityForResult(new Intent(
-                                Settings.ACTION_MANAGE_OVERLAY_PERMISSION,
-                                Uri.parse("package:" + Mainactivity.getPackageName())
-                        ), 102
-                );
-            } else {
-                showFloatWindow();
-            }
-        } else {
-            showFloatWindow();
-        }
-    }
-
-
     @JSMethod(uiThread = true)
     public void openXF(JSONArray options, JSCallback  callback) {
-
-//        TcBean  sss =    new TcBean("台本1","sdsddd",false);
-
         array = options;
-
-//        path = "/sdcard/1604885387375548.mp4";
-
         mContext = mWXSDKInstance.getContext();
         Mainactivity = (Activity)mWXSDKInstance.getContext();
-
 
         if (Build.VERSION.SDK_INT >= 23) {
             if (!Settings.canDrawOverlays(Mainactivity)) {

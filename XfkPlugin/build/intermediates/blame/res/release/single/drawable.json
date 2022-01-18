@@ -1,0 +1,442 @@
+[
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ks_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ks_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\content_set.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\content_set.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\wuta_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\wuta_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ori_change.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ori_change.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\close_hm3.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\close_hm3.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ic_setting.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ic_setting.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\close_hm4.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\close_hm4.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\btn_use_bg.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\btn_use_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ic_launcher_background.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\app_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\shape_white_ring.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\shape_white_ring.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\tc_1218.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\tc_1218.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\home_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\home_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\seek_bar_bg.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\seek_bar_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\btn_unuse_bg.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\btn_unuse_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\bg_round_corner.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\bg_round_corner.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\landspace_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\landspace_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\tc_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\tc_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\qyxj_logo.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\qyxj_logo.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\mtxx_logo.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\mtxx_logo.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\arrow_circle_up_24.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\arrow_circle_up_24.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\start_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\start_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\color_recy_bg.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\color_recy_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\home_1218.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\home_1218.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\left_transation_bg.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\left_transation_bg.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\scroll_pause.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\scroll_pause.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\circle_bg_view2.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\circle_bg_view2.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\douyin_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\douyin_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\crop_free_24.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\crop_free_24.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ic_exchange.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ic_exchange.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\bg_input_window.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\bg_input_window.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ic_douyin_share.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ic_douyin_share.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\close_1220.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\close_1220.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ic_stop.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ic_stop.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\circle_bg_view.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\circle_bg_view.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\setting_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\setting_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\select_circle.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\select_circle.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\close_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\close_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\camera_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\camera_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\home.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\home.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\tc_logo.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\tc_logo.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\scale_icon.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\scale_icon.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\scale_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\scale_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\camera_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\camera_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\camera.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\camera.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\home_hm2.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\home_hm2.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\camera_hm2.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\camera_hm2.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\right_scale_bg.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\right_scale_bg.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\circle_lin.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\circle_lin.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\setting_24dp.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\setting_24dp.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\stop_1218.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\stop_1218.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\weex_error.png",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\57d9b6baac59244c604926c5d54b2b4a\\res\\drawable\\weex_error.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\scale_hm2.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\scale_hm2.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\camera_1218.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\camera_1218.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\landspace_1218.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\landspace_1218.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\ic_start.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\ic_start.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\shape_gray_circle.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\shape_gray_circle.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\scroll_start.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\scroll_start.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\setting.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\setting.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\close.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\close.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\cancel_1218.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\cancel_1218.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\circle_seekbar_icon.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\circle_seekbar_icon.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\circle_bg.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\circle_bg.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\home_new.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\home_new.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\tcds_logo_new.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\tcds_logo_new.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\visibility_off_24.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\visibility_off_24.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\shape_white_circle.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\shape_white_circle.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\stop_hm.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\stop_hm.png"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\drawable\\close_hm2.png",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\drawable\\close_hm2.png"
+    }
+]

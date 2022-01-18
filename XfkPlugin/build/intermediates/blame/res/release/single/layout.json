@@ -1,0 +1,246 @@
+[
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\pop_app_text.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\pop_app_text.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\weex_recycler_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\57d9b6baac59244c604926c5d54b2b4a\\res\\layout\\weex_recycler_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\pop_app_text_landspace.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\pop_app_text_landspace.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_bottom.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\cb0e2ba5bbc8c9b9767636deabcb9f10\\res\\layout\\layout_tab_bottom.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\cb0e2ba5bbc8c9b9767636deabcb9f10\\res\\layout\\layout_tab.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_bgset.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_bgset.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_textset.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_textset.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\pop_app_bottom.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\pop_app_bottom.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_tooltip.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_tooltip.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_top.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\cb0e2ba5bbc8c9b9767636deabcb9f10\\res\\layout\\layout_tab_top.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\color_item.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\color_item.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_set.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_set.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_cascading_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_cascading_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_contentset.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_contentset.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_right.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\cb0e2ba5bbc8c9b9767636deabcb9f10\\res\\layout\\layout_tab_right.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\item_tc.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\item_tc.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_text.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_text.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\test_rotation.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\test_rotation.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_speedset.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_speedset.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\viewpager_tc_set.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\viewpager_tc_set.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\notification_action.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\820f1fdce82a14971d0a336abd38ccde\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_segment.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\cb0e2ba5bbc8c9b9767636deabcb9f10\\res\\layout\\layout_tab_segment.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\pop_app_bottom_landspace.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\pop_app_bottom_landspace.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\view_logo.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\view_logo.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_adapter_icon_item.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\layout_adapter_icon_item.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_left.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\cb0e2ba5bbc8c9b9767636deabcb9f10\\res\\layout\\layout_tab_left.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\pop_app_text_landspace2.xml",
+        "source": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\src\\main\\res\\layout\\pop_app_text_landspace2.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\code\\XF\\xf_plugin\\XfkPlugin\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\wei\\.gradle\\caches\\transforms-2\\files-2.1\\55960161e6a037891448c17c1842b054\\res\\layout\\select_dialog_multichoice_material.xml"
+    }
+]

@@ -2,7 +2,8 @@ package com.jw.tcdsappmaster;
 
 import android.app.Application;
 
-import com.jw.tcdialogplugin.PreferencesUtils;
+import com.jw.xfkplugin.PreferencesUtils;
+
 
 //import com.jw.xfkplugin.PreferencesUtils;
 

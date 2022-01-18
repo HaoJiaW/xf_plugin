@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:doit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/all_transparent"
+    android:orientation="vertical"
+    android:paddingLeft="6dp"
+    android:paddingRight="6dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_size_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/textSize"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/botton_title_textsize" />
+
+
+            <TextView
+                android:id="@+id/speedTextTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/scrollSpeed"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:textSize="@dimen/botton_title_textsize" />
+
+
+            <TextView
+                android:id="@+id/bg_alpha_title"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/bgAlpha"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="@dimen/botton_title_textsize" />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+                <SeekBar
+                    android:id="@+id/textSizeSeekBar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:max="40"
+                    android:progress="0"
+                    android:thumb="@drawable/circle_seekbar_icon"
+                    android:progressDrawable="@drawable/seek_bar_bg"/>
+
+                <TextView
+                    android:id="@+id/textSizeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="30"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_botton_title_textsize"
+                    android:layout_marginLeft="5dp"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+                <SeekBar
+                    android:id="@+id/scrollSpeedSeekbar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="1"
+                    android:thumb="@drawable/circle_seekbar_icon"
+                    android:progressDrawable="@drawable/seek_bar_bg" />
+
+                <TextView
+                    android:id="@+id/scrollText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="@color/white"
+                    android:layout_alignParentRight="true"
+                    android:textSize="@dimen/small_botton_title_textsize"
+                    android:layout_marginLeft="5dp"
+                    android:layout_alignTop="@+id/speedTextTitle"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+
+                <SeekBar
+                    android:id="@+id/bgAlphaSeekbar"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:thumb="@drawable/circle_seekbar_icon"
+                    android:progressDrawable="@drawable/seek_bar_bg" />
+
+                <TextView
+                    android:id="@+id/bgAlphaText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/small_botton_title_textsize"
+                    android:layout_marginLeft="5dp"
+                    />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/text_color_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/textColor"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/botton_title_textsize" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/textColorRecyView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_toRightOf="@+id/text_color_tip"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/bg_color_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="@string/bgColor"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/botton_title_textsize" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/bgColorRecyView"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/bg_color_tip"
+            android:layout_marginLeft="10dp"/>
+
+    </RelativeLayout>
+
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/closeBtn"-->
+<!--            android:layout_width="@dimen/image_wh"-->
+<!--            android:layout_height="@dimen/image_wh"-->
+<!--            android:src="@drawable/close_icon"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_marginRight="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            />-->
+<!--    </RelativeLayout>-->
+
+<!--    <com.flyco.tablayout.CommonTabLayout-->
+<!--        android:id="@+id/tabLayout"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="48dp"-->
+<!--        app:tl_iconVisible="false"-->
+<!--        doit:tl_indicator_bounce_enable="false"-->
+<!--        doit:tl_indicator_color="#2C97DE"-->
+<!--        doit:tl_indicator_gravity="BOTTOM"-->
+<!--        doit:tl_indicator_height="0dp"-->
+<!--        doit:tl_textSelectColor="@color/white"-->
+<!--        doit:tl_textUnselectColor="@color/gray"-->
+<!--        doit:tl_textsize="16sp"-->
+<!--        doit:tl_underline_height="0dp" />-->
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0.1dp"-->
+<!--        android:background="@color/white" />-->
+
+<!--    <com.jw.xfkplugin.CommViewPager-->
+<!--        android:id="@+id/viewPager"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+</LinearLayout>

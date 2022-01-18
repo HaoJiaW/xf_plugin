@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jw.tcdsappmaster"
+    android:versionCode="1002"
+    android:versionName="1.0.2" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.jw.tcdsappmaster.MyApplication"
+        android:allowBackup="true"
+        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.jw.tcdsappmaster.MainActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.jw.xfkplugin.TestRotationActivity" >
+
+            <!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            -->
+        </activity>
+
+        <service
+            android:name="com.jw.xfkplugin.SettingService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.jw.xfkplugin.BeyondService_2"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.jw.xfkplugin.BeyondServiceLandSpace"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.jw.xfkplugin.LogoService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.jw.xfkplugin.SettingServiceLandSpace"
+            android:enabled="true"
+            android:exported="true" />
+
+        <receiver
+            android:name="com.taobao.weex.WXGlobalEventReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+    </application>
+
+</manifest>
